@@ -9,8 +9,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <React.Fragment >
-      <AppBar sx={{background: "#000", 
-                   boxShadow: "0 1px 10px rgba(161, 161, 161, 0.2)", opacity: "0.9"}}>
+      <AppBar sx={{background: "#000",  opacity: "0.9", height: "75px"}}>
         <Toolbar>
           <Link className="navbar-logo" to="/">
               <img src={logo} width="250px"/>

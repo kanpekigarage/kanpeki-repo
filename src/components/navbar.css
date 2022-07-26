@@ -6,27 +6,30 @@
 .navbar-logo {
   text-decoration: none;
   position: absolute;
-  margin-top: 12px;
+  margin-top: 20px;
 }
 
 .navbar-gallery {
   color: #ffffff !important;
   font-size: medium !important;
-  font-weight: 600 !important;
+  font-weight: normal !important;
   text-transform: none !important;
   border-radius: 5px !important;
   left: 20%;
   position: absolute !important;
+  margin-top: 5px !important; 
 }
 
 .navbar-shop {
   color: #ffffff !important;
   font-size: medium !important;
-  font-weight: 600 !important;
+  font-weight: normal !important;
   text-transform: none !important;
   border-radius: 5px !important;
-  left: 28%;
+  left: 30%;
   position: absolute !important;
+  margin-top: 5px !important; 
+  
 }
 
 /* .navbar-sign-in  {
@@ -37,5 +40,17 @@
 } */
 
 .navbar-account:hover {
+  transform: scale(1.05);
+}
+
+.navbar-shop:hover {
+  transform: scale(1.05);
+}
+
+.navbar-gallery:hover {
+  transform: scale(1.05);
+}
+
+.navbar-logo:hover {
   transform: scale(1.05);
 }
