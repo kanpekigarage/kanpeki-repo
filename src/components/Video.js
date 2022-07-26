@@ -4,9 +4,7 @@ import React from 'react'
 
 function Video() {
   return (
-    <Box className="video-container"
-         display="flex"
-    >
+    <Box>
       <video src={video} width="100%" autoPlay muted loop/>
     </Box>   
   )
