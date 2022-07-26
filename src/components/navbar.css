@@ -1,3 +1,8 @@
+* {
+  font-family: 'IBM Plex Sans' !important;
+  text-decoration: none;
+}
+
 .navbar-logo {
   text-decoration: none;
   position: absolute;
@@ -24,12 +29,12 @@
   position: absolute !important;
 }
 
-.navbar-account  {
+/* .navbar-sign-in  {
   color: #2796FD !important;
   position: absolute !important;
   right: 20%;
   transition: transform .2s !important;
-}
+} */
 
 .navbar-account:hover {
   transform: scale(1.05);

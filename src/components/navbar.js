@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <React.Fragment >
       <AppBar sx={{background: "#000", 
-                   boxShadow: "0 1px 10px rgba(161, 161, 161, 0.2)"}}>
+                   boxShadow: "0 1px 10px rgba(161, 161, 161, 0.2)", opacity: "0.9"}}>
         <Toolbar>
           <Link className="navbar-logo" to="/">
               <img src={logo} width="250px"/>
