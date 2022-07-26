@@ -16,6 +16,7 @@
   text-transform: none !important;
   border-radius: 5px !important;
   right: 40%;
+  font-family: 'IBM Plex Sans Condensed';
   position: absolute !important;
 }
 
@@ -26,6 +27,7 @@
   text-transform: none !important;
   border-radius: 5px !important;
   right: 30%;
+  font-family: IBM;
   position: absolute !important;
 }
 
