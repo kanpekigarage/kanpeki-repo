@@ -1,8 +1,7 @@
 .navbar-logo {
-  color: #2796FD !important;
   text-decoration: none;
   position: absolute;
-  align-self: center;
+  margin-top: 12px;
 }
 
 .navbar-booking {
