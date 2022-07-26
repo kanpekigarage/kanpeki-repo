@@ -1,8 +1,11 @@
 import React from 'react'
+import Video from '../Video'
 
 function Home() {
   return (
-    <div>H</div>
+    <div>
+      <Video/>
+    </div>
   )
 }
 
