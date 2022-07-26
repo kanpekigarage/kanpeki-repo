@@ -5,7 +5,7 @@ import { AppBar, Button, IconButton, Toolbar} from "@mui/material"; //icons not 
 import { AccountCircle } from "@mui/icons-material"; //in case if wanna have icons
 import { Link } from 'react-router-dom';
 
-function NavigationBar() {
+function navbar() {
   return (
     <React.Fragment >
       <AppBar sx={{background: "#000", 
@@ -34,4 +34,4 @@ function NavigationBar() {
   );
 }
 
-export default NavigationBar;
+export default navbar;
