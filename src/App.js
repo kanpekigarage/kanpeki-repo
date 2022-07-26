@@ -2,9 +2,9 @@
 import './App.css';
 import navbar from './components/navbar';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './components/pages/gallery';
-import Booking from './components/pages/home'
-import Account from './components/pages/shop'
+import Gallery from './components/pages/gallery';
+import Home from './components/pages/home'
+import Shop from './components/pages/shop'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/gallery" element={<Gallery/>} />
-        <Route path="/shop//*" element={<Shop/>} />  
+        <Route path="/shop" element={<Shop/>} />  
       </Routes>
     </Router>
   );
