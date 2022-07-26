@@ -26,7 +26,7 @@ function Navbar() {
             component={Link} 
             to="/shop" 
           >
-            shop
+            Shop
           </Button>
         </Toolbar>
       </AppBar>
