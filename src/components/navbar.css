@@ -140,3 +140,19 @@
 .container:hover {
   transform: scale(1.05);
 }
+
+.phone-menu{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 50%!important;
+  text-align: center;
+  text-decoration: none!important;
+  color: rgb(255, 0, 0);
+  font-size: larger;
+  
+}
+
+
+

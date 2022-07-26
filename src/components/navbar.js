@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <React.Fragment >
-      <AppBar sx={{background: "#000",  opacity: "0.9", height: "75px"}}>
+      <AppBar sx={{background: "#000",  opacity: "0.9"}}>
         <Toolbar>
           <Link className="navbar-logo" to="/">
               <img src={logo} width="250px"/>
@@ -28,14 +28,21 @@ function Navbar() {
           >
             Shop
           </Button>
-          <div class="left">
+         
+
+          {/* <div class="left">
           <div class="container" onclick="myFunction(this)">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
             </div>
-          </div>
+          </div> */}
 
+          <ul class="phone-menu">
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/shop">Shop</a></li>
+          </ul>
+        
         </Toolbar>
       </AppBar>
     </React.Fragment> 
