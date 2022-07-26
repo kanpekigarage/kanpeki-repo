@@ -1,11 +1,11 @@
 import React from 'react'
-import './navbar.css';
+import './Navbar.css';
 import '../App.css';
 import { AppBar, Button, IconButton, Toolbar} from "@mui/material"; //icons not used rn
-import { AccountCircle } from "@mui/icons-material"; //in case if wanna have icons
+//import { AccountCircle } from "@mui/icons-material"; //in case if wanna have icons
 import { Link } from 'react-router-dom';
 
-function navbar() {
+function Navbar() {
   return (
     <React.Fragment >
       <AppBar sx={{background: "#000", 
@@ -34,4 +34,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;
