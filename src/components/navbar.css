@@ -1,35 +1,40 @@
+* {
+  font-family: 'IBM Plex Sans' !important;
+  text-decoration: none;
+}
+
 .navbar-logo {
   text-decoration: none;
   position: absolute;
   margin-top: 12px;
 }
 
-.navbar-booking {
-  color: #2796FD !important;
+.navbar-gallery {
+  color: #ffffff !important;
   font-size: medium !important;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
   text-transform: none !important;
   border-radius: 5px !important;
   right: 40%;
   position: absolute !important;
 }
 
-.navbar-about {
-  color: #2796FD !important;
+.navbar-shop {
+  color: #ffffff !important;
   font-size: medium !important;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
   text-transform: none !important;
   border-radius: 5px !important;
   right: 30%;
   position: absolute !important;
 }
 
-.navbar-account  {
+/* .navbar-sign-in  {
   color: #2796FD !important;
   position: absolute !important;
   right: 20%;
   transition: transform .2s !important;
-}
+} */
 
 .navbar-account:hover {
   transform: scale(1.05);
