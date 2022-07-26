@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/navbarlogo.png'
 import './Navbar.css';
 import '../App.css';
 import { AppBar, Button, IconButton, Toolbar} from "@mui/material"; //icons not used rn
@@ -12,7 +13,7 @@ function Navbar() {
                    boxShadow: "0 1px 10px rgba(161, 161, 161, 0.2)"}}>
         <Toolbar>
           <Link className="navbar-logo" to="/">
-              Kanpeki Garage
+              <img src={logo} width="250px"/>
           </Link>
           <Button 
             className="navbar-gallery"
