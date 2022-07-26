@@ -7,20 +7,20 @@
   left: 20%;
 }
 
-.navbar-booking {
-  color: #2796FD !important;
+.navbar-gallery {
+  color: #ffffff !important;
   font-size: medium !important;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
   text-transform: none !important;
   border-radius: 5px !important;
   right: 40%;
   position: absolute !important;
 }
 
-.navbar-about {
-  color: #2796FD !important;
+.navbar-shop {
+  color: #ffffff !important;
   font-size: medium !important;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
   text-transform: none !important;
   border-radius: 5px !important;
   right: 30%;
