@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css';
 import '../App.css';
 import { AppBar, Button, IconButton, Toolbar} from "@mui/material"; //icons not used rn
-import { AccountCircle } from "@mui/icons-material"; //in case if wanna have icons
+//import { AccountCircle } from "@mui/icons-material"; //in case if wanna have icons
 import { Link } from 'react-router-dom';
 
 function Navbar() {
