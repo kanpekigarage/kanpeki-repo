@@ -54,3 +54,89 @@
 .navbar-logo:hover {
   transform: scale(1.05);
 }
+
+@media screen and (max-width:1450px){
+  .navbar-gallery{
+    left: 25%!important; 
+  }
+  .navbar-shop{
+    left: 45%!important;
+  }
+}
+
+@media screen and (max-width:1225px){
+  .navbar-gallery{
+    left: 30%!important; 
+  }
+  .navbar-shop{
+    left: 50%!important;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .navbar-gallery{
+    left: 35%!important; 
+  }
+  .navbar-shop{
+    left: 55%!important;
+  }
+}
+
+@media screen and (max-width:900px){
+  .navbar-gallery{
+    left: 37.5%!important; 
+  }
+  .navbar-shop{
+    left: 57.5%!important;
+  }
+}
+
+@media screen and (max-width:750px){
+  .navbar-gallery{
+    display:none !important; 
+  }
+  .navbar-shop{
+    display:none !important; 
+  }
+}
+
+@media screen and (min-width:750px){
+  .container{
+    display:none !important; 
+  }
+
+}
+
+.left{
+  padding-left: 95%!important;
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(72, 74, 75);
+  margin: 6px 0;
+  transition: 0.4s;
+  left: 60%!important;
+  border-radius: 25px;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
