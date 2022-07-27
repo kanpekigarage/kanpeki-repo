@@ -1,8 +1,11 @@
 import React from 'react'
+import Noshopd from '../noshopdesktop'
 
 function Shop() {
   return (
-    <div></div>
+    <div>
+      <Noshopd/>
+    </div>
   )
 }
 

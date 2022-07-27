@@ -1,0 +1,40 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+.desktop-view{
+  height:100%!important;
+  width: 100%;
+  object-fit: cover!important;
+  background-size: cover!important;
+  margin:0!important;
+  position: fixed !important;
+}
+.phone-view{
+  height:100%!important;
+  width: 100%;
+  object-fit: cover!important;
+  background-size: cover!important;
+  margin:0!important;
+  position: fixed !important;
+}
+
+.nodrag{
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+@media screen and (max-width:900px){
+  .desktop-view{
+    display:none !important; 
+  }
+
+}
+
+@media screen and (min-width:900px){
+  .phone-view{
+    display:none !important; 
+  }
+
+}
