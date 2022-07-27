@@ -11,9 +11,9 @@ function Navbar() {
     <React.Fragment >
       <AppBar sx={{background: "#000",  opacity: "0.9"}}>
         <Toolbar>
-          <Link className="navbar-logo" to="/">
+          { <Link className="navbar-logo" to="/">
               <img src={logo} width="250px"/>
-          </Link>
+          </Link> }
           <Button 
             className="navbar-gallery"
             component={Link} 
@@ -30,18 +30,19 @@ function Navbar() {
           </Button>
          
 
-          {/* <div class="left">
+          <div class="left">
           <div class="container" onclick="myFunction(this)">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
             </div>
-          </div> */}
+          </div> 
 
-          <ul class="phone-menu">
+          {/* <ul class="phone-menu">
+          <li><a href="/gallery" className="navbar-logo" to="/"><img src={logo} width="250px"/></a></li> 
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/shop">Shop</a></li>
-          </ul>
+        </ul> fix later*/}
         
         </Toolbar>
       </AppBar>
