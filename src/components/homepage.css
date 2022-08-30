@@ -1,0 +1,75 @@
+.homepagecivic{
+  height:80%;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  
+}
+
+.nodrag{
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+@media screen and (max-width:1450px){
+  .homepagecivic{
+    height:85%!important;
+    width: 100%!important;
+  }
+}
+
+@media screen and (max-width:1225px){
+  .homepagecivic{
+    height:80%!important;
+    width: 100%!important;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .homepagecivic{
+    height:75%!important;
+    width: 100%!important;
+  }
+}
+
+@media screen and (max-width:900px){
+  .homepagecivic{
+    height:70%!important;
+    width: 100%!important;
+  }
+}
+
+@media screen and (max-width:750px){
+  .homepagecivic{
+    height:55%!important;
+    width: 100%!important;
+  }
+}
+
+@media screen and (max-width:1100px){
+  .gallerydesk{
+    display:none !important; 
+  }
+  .shopdesk{
+    display:none !important; 
+  }
+  .meetsdesk{
+    display:none !important; 
+  }
+}
+
+@media screen and (min-width:1100px){
+  .gallerymobile{
+    display:none !important; 
+  }
+  .shopmobile{
+    display:none !important; 
+  }
+  .meetsmobile{
+    display:none !important; 
+  }
+}
