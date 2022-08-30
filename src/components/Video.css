@@ -1,0 +1,19 @@
+.video-bar {
+  width:100%;
+}
+
+.video-barMobile {
+  width:100%;
+}
+
+@media screen and (max-width:950px){
+  .video-bar{
+    display:none !important;
+  }
+}
+
+@media screen and (min-width:950px){
+  .video-barMobile{
+    display:none !important;
+  }
+}

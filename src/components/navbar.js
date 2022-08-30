@@ -19,14 +19,22 @@ function Navbar() {
             component={Link} 
             to="/gallery" 
           >
-            Gallery
+          Gallery
           </Button>
           <Button
             className="navbar-shop" 
             component={Link} 
             to="/shop" 
           >
-            Shop
+          Shop
+          </Button>
+
+          <Button
+            className="navbar-meets" 
+            component={Link} 
+            to="/meets" 
+          >
+          Meets
           </Button>
          
 
