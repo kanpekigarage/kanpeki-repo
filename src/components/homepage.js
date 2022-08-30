@@ -1,7 +1,6 @@
 import React from 'react'
 import homepageCivic from '../assets/homepage.png'
 import './homepage.css';
-import hoodie from '../assets/hoodie.jpg'
 import { Link } from 'react-router-dom';
 import { Box, 
          Card, 
@@ -67,7 +66,7 @@ function homepage() {
               <CardMedia
                 component="img"
                 height="350"
-                image={require('../assets/hoodie.jpg')}
+                image={require('../assets/hoodiedesk.jpg')}
                 alt="Shop"
               />
               <CardContent>
