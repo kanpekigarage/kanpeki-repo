@@ -40,7 +40,7 @@ function homepage() {
             <img src={homepageCivic} className="homepagecivic nodrag" alt='homeimg' />
           </Grid>
           
-          <Grid item xs={4} className="gallerydesk">
+          <Grid item xs={4} className="gallerydesk nodrag">
             <Card>
               <CardMedia
                 component="img"
@@ -61,7 +61,7 @@ function homepage() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4} className="shopdesk">
+          <Grid item xs={4} className="shopdesk nodrag">
             <Card>
               <CardMedia
                 component="img"
@@ -82,7 +82,7 @@ function homepage() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4} className="meetsdesk">
+          <Grid item xs={4} className="meetsdesk nodrag">
             <Card>
               <CardMedia
                 component="img"
@@ -104,7 +104,7 @@ function homepage() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} className="gallerymobile">
+          <Grid item xs={12} className="gallerymobile nodrag">
             <Card>
               <CardMedia
                 component="img"
@@ -125,7 +125,7 @@ function homepage() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} className="shopmobile">
+          <Grid item xs={12} className="shopmobile nodrag">
             <Card>
               <CardMedia
                 component="img"
@@ -146,7 +146,7 @@ function homepage() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} className="meetsmobile">
+          <Grid item xs={12} className="meetsmobile nodrag">
             <Card>
               <CardMedia
                 component="img"

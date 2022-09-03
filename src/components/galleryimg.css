@@ -1,0 +1,26 @@
+.img-bar {
+  width:100%;
+}
+
+.img-barMobile {
+  width:100%;
+}
+
+@media screen and (max-width:950px){
+  .img-bar{
+    display:none !important;
+  }
+}
+
+@media screen and (min-width:950px){
+  .img-barMobile{
+    display:none !important;
+  }
+}
+
+.nodrag{
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
