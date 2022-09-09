@@ -151,7 +151,7 @@ function homepage() {
               <CardMedia
                 component="img"
                 height="350"
-                image={require('../assets/banner.jpg')}
+                image={require('../assets/banner2.jpg')}
                 alt="Meets"
               />
               <CardContent>

@@ -37,7 +37,7 @@ function Navbar() {
           Meets
           </Button>
          
-
+{/*
           <div class="left">
           <div class="container" onclick="myFunction(this)">
           <div class="bar1"></div>
@@ -46,7 +46,7 @@ function Navbar() {
             </div>
           </div> 
 
-          {/* <ul class="phone-menu">
+           <ul class="phone-menu">
           <li><a href="/gallery" className="navbar-logo" to="/"><img src={logo} width="250px"/></a></li> 
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/shop">Shop</a></li>

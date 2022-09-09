@@ -38,7 +38,7 @@ function GallerySelection() {
             </Typography>
           </Grid>
           
-          <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/meets">
+          <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/ZachMX-5">
             <Card >
               <CardMedia
                 component="img"
@@ -54,7 +54,7 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4} className="logandesk nodrag" component={Link} to="/meets">
+          <Grid item xs={4} className="logandesk nodrag" component={Link} to="/gallery/LoganMX-5">
             <Card>
               <CardMedia
                 component="img"
@@ -69,7 +69,7 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/meets">
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/DanielR33">
             <Card>
               <CardMedia
                 component="img"
@@ -84,7 +84,7 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/meets">
+          <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/ZachMX-5">
             <Card>
               <CardMedia
                 component="img"
@@ -99,7 +99,7 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} className="loganmobile nodrag" component={Link} to="/meets">
+          <Grid item xs={12} className="loganmobile nodrag" component={Link} to="/gallery/LoganMX-5">
             <Card>
               <CardMedia
                 component="img"
@@ -114,7 +114,7 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/meets">
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/DanielR33">
             <Card>
               <CardMedia
                 component="img"
