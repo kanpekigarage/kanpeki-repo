@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kanpekigarage.github.io/kanpeki-repo",
+  "homepage": "https://kanpekigarage.com",
   
   "name": "kanpeki-repo",
   "version": "0.1.0",
@@ -28,7 +28,7 @@
 
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    
+
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
