@@ -38,7 +38,7 @@ function GallerySelection() {
             </Typography>
           </Grid>
           
-          <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/ZachMX-5">
+          <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/ZacMX-5">
             <Card >
               <CardMedia
                 component="img"
@@ -48,7 +48,7 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Zach's MX-5
+                  Zac's MX-5
                 </Typography>
 
               </CardContent>
@@ -69,7 +69,7 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/DanielR33">
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/DaymeinR33">
             <Card>
               <CardMedia
                 component="img"
@@ -79,12 +79,12 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Daniel's R33
+                  Daymein's R33
                 </Typography>             
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/ZachMX-5">
+          <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/ZacMX-5">
             <Card>
               <CardMedia
                 component="img"
@@ -94,7 +94,7 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Zach's MX-5
+                  Zac's MX-5
                 </Typography>
               </CardContent>
             </Card>
@@ -114,7 +114,7 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/DanielR33">
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/DaymeinR33">
             <Card>
               <CardMedia
                 component="img"
@@ -124,7 +124,7 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Daniel's R33
+                  Daymein's R33
                 </Typography>         
               </CardContent>
             </Card>
