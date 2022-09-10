@@ -1,5 +1,5 @@
 import React from 'react'
-import homepageCivic from '../assets/homepage.png'
+import homepageCivic from '../assets/homepage.jpg'
 import './homepage.css';
 import { Link } from 'react-router-dom';
 import { Box, 
@@ -35,7 +35,7 @@ function homepage() {
               <b>About Kanpeki Garage</b>
             </Typography>
             <Typography marginTop="12px" variant="body1">
-            Kanpeki Garage was started as a passion project in 2022 to share our interest in cars and clothing. We aim to share quality media of cars, create a community that appreiate cars and produce quality clothing.
+            Kanpeki Garage was started as a passion project in 2022 to share our interest in cars and clothing. We aim to share quality media of cars, create a community that appreciate cars and produce quality clothing.
             </Typography>
             <img src={homepageCivic} className="homepagecivic nodrag" alt='homeimg' />
           </Grid>
