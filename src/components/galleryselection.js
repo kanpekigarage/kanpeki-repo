@@ -48,12 +48,13 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Zac's MX-5
+                  @prior13b's MX-5
                 </Typography>
 
               </CardContent>
             </Card>
           </Grid>
+
           <Grid item xs={4} className="logandesk nodrag" component={Link} to="/gallery/LoganMX-5">
             <Card>
               <CardMedia
@@ -64,11 +65,12 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Logan's MX-5
+                  @logan_tomo's MX-5
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
+
           <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/DaymeinR33">
             <Card>
               <CardMedia
@@ -79,11 +81,60 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Daymein's R33
+                  @daymein_lindsey's R33
                 </Typography>             
               </CardContent>
             </Card>
           </Grid>
+
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/moi57rR34">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/MOI.jpg')}
+                alt="r34"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @moi57r's R34
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/00jdM2">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/M2.jpg')}
+                alt="M2"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @00.jd_'s M2
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/EndGame">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/ENDGAME.jpg')}
+                alt="R34"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @endgamecollection's R34 GTR
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
           <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/ZacMX-5">
             <Card>
               <CardMedia
@@ -94,11 +145,12 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Zac's MX-5
+                  @prior13b's MX-5
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
+
           <Grid item xs={12} className="loganmobile nodrag" component={Link} to="/gallery/LoganMX-5">
             <Card>
               <CardMedia
@@ -109,11 +161,12 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Logan's MX-5
+                  @logan_tomo's MX-5
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
+
           <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/DaymeinR33">
             <Card>
               <CardMedia
@@ -124,11 +177,60 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Daymein's R33
+                 @daymein_lindsey's R33
                 </Typography>         
               </CardContent>
             </Card>
           </Grid>
+
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/moi57rR34">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/MOI.jpg')}
+                alt="r34"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @moi57r's R34
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/00jdM2">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/M2.jpg')}
+                alt="M2"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @00.jd_'s M2
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/EndGame">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/ENDGAME.jpg')}
+                alt="R34"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @endgamecollection's R34 GTR
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
         </Grid>
       </Box>
     </Box>   

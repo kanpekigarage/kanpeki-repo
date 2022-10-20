@@ -9,6 +9,9 @@ import Meets from './components/pages/Meets';
 import Zachmx5 from './components/pages/Zachmx5';
 import Loganmx5 from './components/pages/Loganmx5';
 import DanielR33 from './components/pages/DanielR33';
+import ENDGAME from './components/pages/ENDGAME';
+import Jdm2 from './components/pages/jdM2';
+import MoiR34 from './components/pages/moi57rR34';
 
 function App() {
 
@@ -22,8 +25,12 @@ function App() {
         <Route path="/gallery/ZacMX-5" element={<Zachmx5/>} />
         <Route path="/gallery/LoganMX-5" element={<Loganmx5/>} />
         <Route path="/gallery/DaymeinR33" element={<DanielR33/>} />
+        <Route path="/gallery/EndGame" element={<ENDGAME/>} />
+        <Route path="/gallery/00jdM2" element={<Jdm2/>} />
+        <Route path="/gallery/moi57rR34" element={<MoiR34/>} />
         <Route path="/shop" element={<Shop/>} />  
         <Route path="/meets" element={<Meets/>} /> 
+        //why the fuck must it be caps this lang sucks cock and balls
       </Routes>
     </Router>
   

@@ -5,6 +5,14 @@
   -o-user-drag: none;
 }
 
+.container-div{ 
+  display: flex;
+  height: 100vh;
+  width: 100vw; 
+  align-items: center;
+  justify-content: center;
+  }
+
 @media screen and (max-width:1100px){
   .desk1{
     display:none !important; 
