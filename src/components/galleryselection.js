@@ -134,7 +134,53 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/CYIFLY">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/cyi.jpg')}
+                alt="r34"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @i_fly_gtr's R34 GTR
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
 
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/IconRx7">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/90icon.jpg')}
+                alt="RX7"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @90_icon's RX7 
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/Sail">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/sail.jpg')}
+                alt="R33"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @33.sail's R33 
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
           <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/ZacMX-5">
             <Card>
               <CardMedia
@@ -226,6 +272,53 @@ function GallerySelection() {
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   @endgamecollection's R34 GTR
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/CYIFLY">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/cyi.jpg')}
+                alt="r34"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @i_fly_gtr's R34 GTR
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/IconRx7">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/90icon.jpg')}
+                alt="RX7"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @90_icon's RX7 
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/Sail">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/sail.jpg')}
+                alt="R33"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @33.sail's R33 
                 </Typography>             
               </CardContent>
             </Card>

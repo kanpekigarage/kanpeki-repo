@@ -12,7 +12,9 @@ import DanielR33 from './components/pages/DanielR33';
 import ENDGAME from './components/pages/ENDGAME';
 import Jdm2 from './components/pages/jdM2';
 import MoiR34 from './components/pages/moi57rR34';
-
+import IconRx7 from './components/pages/IconRx7';
+import CyiGtr from './components/pages/CyiGtr';
+import SailSky from './components/pages/SailR600';
 function App() {
 
 
@@ -28,6 +30,9 @@ function App() {
         <Route path="/gallery/EndGame" element={<ENDGAME/>} />
         <Route path="/gallery/00jdM2" element={<Jdm2/>} />
         <Route path="/gallery/moi57rR34" element={<MoiR34/>} />
+        <Route path="/gallery/IconRx7" element={<IconRx7/>} />
+        <Route path="/gallery/CYIFLY" element={<CyiGtr/>} />
+        <Route path="/gallery/Sail" element={<SailSky/>} />
         <Route path="/shop" element={<Shop/>} />  
         <Route path="/meets" element={<Meets/>} /> 
         //why the fuck must it be caps this lang sucks cock and balls
