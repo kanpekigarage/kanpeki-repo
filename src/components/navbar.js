@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/navbarlogo.png'
+import hamburg from '../assets/tempHamburg.png'
 import './Navbar.css';
 import '../App.css';
 import { AppBar, Button, IconButton, Toolbar} from "@mui/material"; //icons not used rn
@@ -14,6 +15,7 @@ function Navbar() {
           { <Link className="navbar-logo" to="/">
               <img src={logo} width="250px"/>
           </Link> }
+
           <Button 
             className="navbar-gallery"
             component={Link} 
@@ -36,6 +38,10 @@ function Navbar() {
           >
           Meets
           </Button>
+
+          { <Link className="navbar-hamburg" to="/gallery">
+              <img src={hamburg} width="37.5px"/>
+          </Link> }
          
 {/*
           <div class="left">
@@ -51,7 +57,7 @@ function Navbar() {
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/shop">Shop</a></li>
         </ul> fix later*/}
-        
+
         </Toolbar>
       </AppBar>
     </React.Fragment> 

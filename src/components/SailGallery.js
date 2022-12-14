@@ -112,7 +112,48 @@ function sailGallery() {
               />
             </Card>
           </Grid>
-          
+          <Grid item xs={12} className="desk1 nodrag">
+            <Card>
+              <CardMedia
+                component="img"
+                height="100%"
+                image={require('../assets/sail/9.jpg')}
+                alt="5"
+              />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="desk1 nodrag">
+            <Card>
+              <CardMedia
+                component="img"
+                height="100%"
+                image={require('../assets/sail/10.jpg')}
+                alt="5"
+              />
+            </Card>
+          </Grid>
+          <Grid item xs={12} className="desk1 nodrag">
+            <Card>
+              <CardMedia
+                component="img"
+                height="100%"
+                image={require('../assets/sail/11.jpg')}
+                alt="5"
+              />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="desk1 nodrag">
+            <Card>
+              <CardMedia
+                component="img"
+                height="100%"
+                image={require('../assets/sail/12.jpg')}
+                alt="5"
+              />
+            </Card>
+          </Grid>
       
           
 
@@ -202,6 +243,50 @@ function sailGallery() {
                 component="img"
                 height="100%"
                 image={require('../assets/sail/8.jpg')}
+                alt="5"
+              />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="mobile1 nodrag">
+            <Card>
+              <CardMedia
+                component="img"
+                height="100%"
+                image={require('../assets/sail/9.jpg')}
+                alt="5"
+              />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="mobile1 nodrag">
+            <Card>
+              <CardMedia
+                component="img"
+                height="100%"
+                image={require('../assets/sail/10.jpg')}
+                alt="5"
+              />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="mobile1 nodrag">
+            <Card>
+              <CardMedia
+                component="img"
+                height="100%"
+                image={require('../assets/sail/11.jpg')}
+                alt="5"
+              />
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="mobile1 nodrag">
+            <Card>
+              <CardMedia
+                component="img"
+                height="100%"
+                image={require('../assets/sail/12.jpg')}
                 alt="5"
               />
             </Card>

@@ -130,7 +130,7 @@ function homepage() {
               <CardMedia
                 component="img"
                 height="350"
-                image={require('../assets/hoodie.jpg')}
+                image={require('../assets/hoodie2.jpg')}
                 alt="Shop"
               />
               <CardContent>

@@ -15,6 +15,9 @@ import MoiR34 from './components/pages/moi57rR34';
 import IconRx7 from './components/pages/IconRx7';
 import CyiGtr from './components/pages/CyiGtr';
 import SailSky from './components/pages/SailR600';
+import Max240SX from './components/pages/Max240SX';
+import JonoChaser from './components/pages/JonoChaser';
+import RollaWagon from './components/pages/RollaWagon';
 function App() {
 
 
@@ -33,6 +36,9 @@ function App() {
         <Route path="/gallery/IconRx7" element={<IconRx7/>} />
         <Route path="/gallery/CYIFLY" element={<CyiGtr/>} />
         <Route path="/gallery/Sail" element={<SailSky/>} />
+        <Route path="/gallery/Max240SX" element={<Max240SX/>} />
+        <Route path="/gallery/JonoCresta" element={<JonoChaser/>} />
+        <Route path="/gallery/RollaWagon" element={<RollaWagon/>} />
         <Route path="/shop" element={<Shop/>} />  
         <Route path="/meets" element={<Meets/>} /> 
         //why the fuck must it be caps this lang sucks cock and balls

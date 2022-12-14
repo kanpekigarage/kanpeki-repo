@@ -181,6 +181,55 @@ function GallerySelection() {
               </CardContent>
             </Card>
           </Grid>
+
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/Max240SX">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/240.jpg')}
+                alt="240sx"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @maxwilcoxx's 240sx
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/JonoCresta">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/chaser.jpg')}
+                alt="chaser"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @jono.marinceski's Cresta
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={4} className="danieldesk nodrag" component={Link} to="/gallery/RollaWagon">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/rolla.jpg')}
+                alt="Rolla"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @_rolla_wagon_'s Corolla Wagon
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
           <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/ZacMX-5">
             <Card>
               <CardMedia
@@ -319,6 +368,54 @@ function GallerySelection() {
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   @33.sail's R33 
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/Max240SX">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/240.jpg')}
+                alt="240sx"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @maxwilcoxx's 240sx
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/JonoCresta">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/chaser.jpg')}
+                alt="chaser"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @jono.marinceski's Cresta
+                </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="danielmobile nodrag" component={Link} to="/gallery/RollaWagon">
+            <Card>
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/rolla.jpg')}
+                alt="Rolla"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @_rolla_wagon_'s Corolla Wagon
                 </Typography>             
               </CardContent>
             </Card>
