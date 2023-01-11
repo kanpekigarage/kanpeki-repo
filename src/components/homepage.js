@@ -4,10 +4,11 @@ import './homepage.css';
 import { Link } from 'react-router-dom';
 import { Box, 
          Card, 
-         CardContent, 
+         CardContent,
+         CardActionArea,
+         CardActions, 
          CardMedia,
          Grid,
-         Button,
          Typography } from '@mui/material'
          
 
@@ -39,7 +40,6 @@ function homepage() {
             </Typography>
             <img src={homepageCivic} className="homepagecivic nodrag" alt='homeimg' />
           </Grid>
-          
           <Grid item xs={4} className="gallerydesk nodrag">
             <Card>
               <CardMedia
@@ -55,10 +55,14 @@ function homepage() {
                 <Typography variant="body1">
                   Our gallery contains collections of images of cars that we have shot to display every aspect of people's vechicles.
                 </Typography>
-                <Typography color="#3584e2" variant="body1" component={Link} to="/gallery">
-                  <b>Click Here To Visit The Gallery</b>
-                </Typography>
               </CardContent>
+              <div className="link-box" >
+                <CardActions>
+                  <Typography color="#3584e2" variant="body1" component={Link} to="/gallery">
+                    <b>Click Here To Visit The Gallery</b>
+                  </Typography>
+                </CardActions>
+              </div>
             </Card>
           </Grid>
           <Grid item xs={4} className="shopdesk nodrag">
@@ -76,10 +80,14 @@ function homepage() {
                 <Typography variant="body1">
                   Our shop contains high quality clothing, stickers and accessories. 
                 </Typography>
-                <Typography color="#3584e2" variant="body1" component={Link} to="/shop">
-                  <b>Click Here To Visit The Shop</b>
-                </Typography>
               </CardContent>
+              <div className="link-box" component={Link} to="/shop">
+                <CardActions>
+                  <Typography color="#3584e2" variant="body1" component={Link} to="/shop">
+                    <b>Click Here To Visit The Shop</b>
+                  </Typography>
+                </CardActions>
+              </div>
             </Card>
           </Grid>
           <Grid item xs={4} className="meetsdesk nodrag">
@@ -97,11 +105,14 @@ function homepage() {
                 <Typography variant="body1">
                   The meets page contains dates and locations of meets being held.
                 </Typography>
-                <Typography color="#3584e2" variant="body1" component={Link} to="/meets" >
-                  <b>Click Here To See Our Future Meets </b>
-                </Typography>
-                
               </CardContent>
+              <div className="link-box">
+                <CardActions>
+                  <Typography color="#3584e2" variant="body1" component={Link} to="/meets">
+                    <b>Click Here To See Our Future Meets </b>
+                  </Typography>
+                </CardActions>
+              </div>
             </Card>
           </Grid>
           <Grid item xs={12} className="gallerymobile nodrag">
@@ -119,10 +130,14 @@ function homepage() {
                 <Typography variant="body1">
                   Our gallery contains collections of images of cars that we have shot to display every aspect of people's vechicles.
                 </Typography>
-                <Typography color="#3584e2" variant="body1" component={Link} to="/gallery">
-                  <b>Click Here To Visit The Gallery</b>
-                </Typography>
               </CardContent>
+              <div className="link-box" component={Link} to="/shop">
+                <CardActions>
+                  <Typography color="#3584e2" variant="body1" component={Link} to="/gallery">
+                    <b>Click Here To Visit The Gallery</b>
+                  </Typography>
+                </CardActions>
+              </div>
             </Card>
           </Grid>
           <Grid item xs={12} className="shopmobile nodrag">
@@ -140,10 +155,14 @@ function homepage() {
                 <Typography variant="body1">
                   Our shop contains high quality clothing, stickers and accessories. 
                 </Typography>
-                <Typography color="#3584e2" variant="body1" component={Link} to="/shop">
-                  <b>Click Here To Visit The Shop</b>
-                </Typography>
               </CardContent>
+              <div className="link-box" component={Link} to="/shop">
+                <CardActions>
+                  <Typography color="#3584e2" variant="body1" component={Link} to="/shop">
+                    <b>Click Here To Visit The Shop</b>
+                  </Typography>
+                </CardActions>
+              </div>
             </Card>
           </Grid>
           <Grid item xs={12} className="meetsmobile nodrag">
@@ -161,11 +180,14 @@ function homepage() {
                 <Typography variant="body1">
                   The meets page contains dates and locations of meets being held.
                 </Typography>
-                <Typography color="#3584e2" variant="body1" component={Link} to="/meets" >
-                  <b>Click Here To See Our Future Meets </b>
-                </Typography>
-                
               </CardContent>
+              <div className="link-box" component={Link} to="/shop">
+                <CardActions>
+                  <Typography color="#3584e2" variant="body1" component={Link} to="/meets" >
+                    <b>Click Here To See Our Future Meets </b>
+                  </Typography>
+                </CardActions>
+              </div>
             </Card>
           </Grid>
 

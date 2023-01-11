@@ -14,6 +14,30 @@
   -o-user-drag: none;
 }
 
+.MuiCard-root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-box {
+  margin-top: auto;
+  padding-left: 8px;
+  padding-bottom: 8px;
+}
+
+.gallerydesk {
+  display: flex;
+}
+
+.shopdesk {
+  display: flex;
+}
+
+.meetsdesk {
+  display: flex;
+}
+
 @media screen and (max-width:1450px){
   .homepagecivic{
     height:85%!important;
