@@ -192,7 +192,7 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  @maxwilcoxx's 240sx
+                  @maxwilcoxx's 180sx
                 </Typography>             
               </CardContent>
             </Card>
@@ -383,7 +383,7 @@ function GallerySelection() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  @maxwilcoxx's 240sx
+                  @maxwilcoxx's 180sx
                 </Typography>             
               </CardContent>
             </Card>
