@@ -44,9 +44,11 @@
   position: absolute !important;
   margin-top: 5px !important; 
   padding-bottom: 13px !important; 
+  
 }
 
 .navbar-hamburg-logo {
+  cursor: pointer;
   text-decoration: none;
   position: absolute;
   margin-top: 20px;
@@ -90,7 +92,6 @@
 .navbar-logo:hover {
   transform: scale(1.05);
 }
-
 
 @media screen and (max-width:1450px){
   .navbar-gallery{
