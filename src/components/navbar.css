@@ -61,11 +61,11 @@
 .hamburg-item {
   text-decoration: none;
   color: white;
-  padding: 20px;
+  padding: 17.5px;
   border-bottom: 1px solid black;
   border-color: rgba(255, 255, 255, 0.746);
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 /* .navbar-sign-in  {
@@ -160,6 +160,9 @@
     display:none !important; 
   }
   .navbar-hamburg {
+    display: none !important;
+  }
+  .hamburg-grid {
     display: none !important;
   }
 }
