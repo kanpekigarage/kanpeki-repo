@@ -34,7 +34,7 @@ function GallerySelection() {
               <b>Kanpeki Garage Gallery</b>
             </Typography>
             <Typography marginTop="12px" variant="body1">
-            Click the images to view more photos of the cars.
+              Click the images to view more photos of the cars.
             </Typography>
           </Grid>
           

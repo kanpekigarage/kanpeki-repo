@@ -54,12 +54,18 @@
   left: 85%;
 }
 
-.navbar-hamburg {
-  margin-top: 100px;
-  display: grid;
-  grid-auto-flow: row;
-  align-items: center;
-  justify-content: center;
+.hamburg-grid {
+  padding-bottom: 20px;
+}
+
+.hamburg-item {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  border-color: rgba(255, 255, 255, 0.746);
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 /* .navbar-sign-in  {

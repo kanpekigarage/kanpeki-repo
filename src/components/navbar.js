@@ -3,7 +3,7 @@ import logo from '../assets/navbarlogo.png'
 import hamburg from '../assets/tempHamburg.png'
 import './Navbar.css';
 import '../App.css';
-import { AppBar, Button, IconButton, Toolbar} from "@mui/material"; //icons not used rn
+import { AppBar, Button, IconButton, Toolbar, Grid} from "@mui/material"; //icons not used rn
 //import { AccountCircle } from "@mui/icons-material"; //in case if wanna have icons
 import { Link } from 'react-router-dom';
 
@@ -45,12 +45,7 @@ function Navbar() {
             <img src={hamburg} width="37.5px"/>
           </div>
 
-          {menuOpen && (
-            <div className="navbar-hamburg">
-              <span>hello</span>
-              <span>hello</span>
-            </div>
-          )}
+          
          
 {/*
           <div class="left">
@@ -68,6 +63,20 @@ function Navbar() {
         </ul> fix later*/}
 
         </Toolbar>
+
+        {menuOpen && (
+          <Grid container align="center" className="hamburg-grid">
+            <Grid item xs={12} className="hamburg-item" component={Link} to="/gallery">
+              <span>Gallery</span>
+            </Grid>
+            <Grid item xs={12} className="hamburg-item" component={Link} to="/shop">
+              Shop
+            </Grid>
+            <Grid item xs={12} className="hamburg-item" component={Link} to="/meets">
+              Meets
+            </Grid>
+          </Grid>
+        )}
       </AppBar>
     </React.Fragment> 
   );
