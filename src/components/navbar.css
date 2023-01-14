@@ -46,12 +46,20 @@
   padding-bottom: 13px !important; 
 }
 
-.navbar-hamburg {
+.navbar-hamburg-logo {
   text-decoration: none;
   position: absolute;
   margin-top: 20px;
   padding-bottom: 20px;
   left: 85%;
+}
+
+.navbar-hamburg {
+  margin-top: 100px;
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /* .navbar-sign-in  {
@@ -142,10 +150,12 @@
   .container{
     display:none !important; 
   }
-  .navbar-hamburg{
+  .navbar-hamburg-logo{
     display:none !important; 
   }
-
+  .navbar-hamburg {
+    display: none !important;
+  }
 }
 
 .left{

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../assets/navbarlogo.png'
 import hamburg from '../assets/tempHamburg.png'
 import './Navbar.css';
@@ -8,6 +8,8 @@ import { AppBar, Button, IconButton, Toolbar} from "@mui/material"; //icons not 
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <React.Fragment >
       <AppBar sx={{background: "#000",  opacity: "0.9"}}>
@@ -39,9 +41,16 @@ function Navbar() {
           Meets
           </Button>
 
-          { <Link className="navbar-hamburg" to="/gallery">
-              <img src={hamburg} width="37.5px"/>
-          </Link> }
+          <div className="navbar-hamburg-logo" onClick={() => setMenuOpen(!menuOpen)}>
+            <img src={hamburg} width="37.5px"/>
+          </div>
+
+          {menuOpen && (
+            <div className="navbar-hamburg">
+              <span>hello</span>
+              <span>hello</span>
+            </div>
+          )}
          
 {/*
           <div class="left">
