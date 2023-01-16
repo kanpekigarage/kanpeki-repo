@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3899e6e5.css",
-    "main.js": "/static/js/main.144d0d31.js",
+    "main.css": "/static/css/main.683fe000.css",
+    "main.js": "/static/js/main.3a73f4c5.js",
     "static/js/787.d38a8338.chunk.js": "/static/js/787.d38a8338.chunk.js",
     "static/media/DSC02667.jpg": "/static/media/DSC02667.acc0da926addb6a3c02d.jpg",
     "static/media/7.jpg": "/static/media/7.0af6072b3d20321909ae.jpg",
@@ -17,6 +17,7 @@
     "static/media/1.jpg": "/static/media/1.725524bc80824e772627.jpg",
     "static/media/6.jpg": "/static/media/6.6c1e479a6003d8ce35bf.jpg",
     "static/media/5.jpg": "/static/media/5.f1b8983b7ea17116bfe1.jpg",
+    "static/media/homepage asset1.jpg": "/static/media/homepage asset1.8974e5fbda4b6ceef997.jpg",
     "static/media/9.jpg": "/static/media/9.115a59944f05e913454f.jpg",
     "static/media/mobileRotate.mp4": "/static/media/mobileRotate.918ffbc1320b101af3de.mp4",
     "static/media/rotate.mp4": "/static/media/rotate.14e237ce304bd3274fb4.mp4",
@@ -31,6 +32,7 @@
     "static/media/MOI.jpg": "/static/media/MOI.d01f0b1f5247eb296e68.jpg",
     "static/media/11.jpg": "/static/media/11.20281723131ce61d63f2.jpg",
     "static/media/gallery.jpg": "/static/media/gallery.4fd927789bf3e38b6bd2.jpg",
+    "static/media/hoodie.jpg": "/static/media/hoodie.99e61edb13588a2ae219.jpg",
     "static/media/ENDGAME.jpg": "/static/media/ENDGAME.b2feb717738f9174d4b8.jpg",
     "static/media/galleryDesktop.png": "/static/media/galleryDesktop.b438f030de6f509930ac.png",
     "static/media/10.jpg": "/static/media/10.3b2dd382a5ea0bb3bef5.jpg",
@@ -39,14 +41,22 @@
     "static/media/M2.jpg": "/static/media/M2.852d8c634cb8cf30b506.jpg",
     "static/media/banner.jpg": "/static/media/banner.8215ae0f1e05af7aa83a.jpg",
     "static/media/90icon.jpg": "/static/media/90icon.eff6596f13f16e7efae4.jpg",
+    "static/media/mobileBanner0.jpg": "/static/media/mobileBanner0.dc41998537a10421a08f.jpg",
     "static/media/banner2.jpg": "/static/media/banner2.2f3677d8d7ba042af090.jpg",
     "static/media/mxW.jpg": "/static/media/mxW.5e3bef82f848180f2f5e.jpg",
+    "static/media/mobileBanner3.jpg": "/static/media/mobileBanner3.13d358787f22d00101b8.jpg",
     "static/media/mobileBanner.jpg": "/static/media/mobileBanner.52b1b6ad5fb2ed8ddc01.jpg",
+    "static/media/mobileBanner1.jpg": "/static/media/mobileBanner1.52b1b6ad5fb2ed8ddc01.jpg",
     "static/media/12.jpg": "/static/media/12.d1e71678b4321a95e7f6.jpg",
+    "static/media/deskBanner0.jpg": "/static/media/deskBanner0.c40a6c4a085a3eea06c0.jpg",
     "static/media/r33.jpg": "/static/media/r33.db6bb99800ee28cd19a9.jpg",
+    "static/media/deskBanner1.jpg": "/static/media/deskBanner1.d88cbaf84f939ec04d33.jpg",
     "static/media/homepage.jpg": "/static/media/homepage.dbdbdfc22deaaf28d00c.jpg",
+    "static/media/deskBanner3.jpg": "/static/media/deskBanner3.406afc1dfbf38bd5b12e.jpg",
+    "static/media/mobileBanner2.jpg": "/static/media/mobileBanner2.9bbe73aa2aa3f904f4de.jpg",
     "static/media/mxR.jpg": "/static/media/mxR.880c4c9da37bdbd1d457.jpg",
     "static/media/navbarlogo.png": "/static/media/navbarlogo.bc1e95aba624df5e1793.png",
+    "static/media/deskBanner2.jpg": "/static/media/deskBanner2.6bc1f8ed8caa53814da5.jpg",
     "static/media/sail.jpg": "/static/media/sail.d3bb8fbc9bde8d9fd42d.jpg",
     "static/media/240.jpg": "/static/media/240.46a86d62581e5a62fa1b.jpg",
     "static/media/rolla.jpg": "/static/media/rolla.0a832ba47d3a22a1aeec.jpg",
@@ -54,12 +64,12 @@
     "static/media/hoodie2.jpg": "/static/media/hoodie2.ceccb2d4082217518bb4.jpg",
     "static/media/insta.png": "/static/media/insta.5813e7556573ebc4bff9.png",
     "index.html": "/index.html",
-    "main.3899e6e5.css.map": "/static/css/main.3899e6e5.css.map",
-    "main.144d0d31.js.map": "/static/js/main.144d0d31.js.map",
+    "main.683fe000.css.map": "/static/css/main.683fe000.css.map",
+    "main.3a73f4c5.js.map": "/static/js/main.3a73f4c5.js.map",
     "787.d38a8338.chunk.js.map": "/static/js/787.d38a8338.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3899e6e5.css",
-    "static/js/main.144d0d31.js"
+    "static/css/main.683fe000.css",
+    "static/js/main.3a73f4c5.js"
   ]
 }
