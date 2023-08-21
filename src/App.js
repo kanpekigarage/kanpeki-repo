@@ -1,10 +1,11 @@
 //import logo from './logo.svg'; //use similar to import images/videos
 import './App.css';
-import Navbar from './components/Navbar';
+
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Gallery from './components/pages/Gallery';
-import Home from './components/pages/Home'
-import Shop from './components/pages/Shop'
+import Navbar from './components/navbar'; // Change 'Navbar' to 'navbar'
+import Gallery from './components/pages/gallery'; // Change 'Gallery' to 'gallery'
+import Home from './components/pages/home'; // Change 'Home' to 'home'
+import Shop from './components/pages/shop'; // Change 'Shop' to 'shop'
 import Meets from './components/pages/Meets';
 import Zachmx5 from './components/pages/Zachmx5';
 import Loganmx5 from './components/pages/Loganmx5';
@@ -18,6 +19,10 @@ import SailSky from './components/pages/SailR600';
 import Max240SX from './components/pages/Max240SX';
 import JonoChaser from './components/pages/JonoChaser';
 import RollaWagon from './components/pages/RollaWagon';
+
+
+// ... other imports
+
 function App() {
 
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../assets/navbarlogo.png'
 import hamburg from '../assets/tempHamburg.png'
-import './Navbar.css';
+import './navbar.css';
 import '../App.css';
 import { AppBar, Button, IconButton, Toolbar, Grid} from "@mui/material"; //icons not used rn
 //import { AccountCircle } from "@mui/icons-material"; //in case if wanna have icons
@@ -37,7 +37,7 @@ function Navbar() {
             component={Link} 
             to="/meets" 
           >
-            Meets
+            Photoshoot Request
           </Button>
           <div className="navbar-hamburg-logo" onClick={() => setMenuOpen(!menuOpen)}>
             <img src={hamburg} width="37.5px"/>
@@ -70,7 +70,7 @@ function Navbar() {
               to="/meets"
               onClick={() => setMenuOpen(!menuOpen)}
             >
-              Meets
+              Photoshoot Request
             </Grid>
           </Grid>
         )}
