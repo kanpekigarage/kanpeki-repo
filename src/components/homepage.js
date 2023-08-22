@@ -100,16 +100,16 @@ function homepage() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Meets
+                  Photoshoot Request
                 </Typography>
                 <Typography variant="body1">
-                  The meets page contains dates and locations of meets being held.
+                  The photoshoot request contains a form you can fill out to get photos taken of your car or other.
                 </Typography>
               </CardContent>
               <div className="link-box">
                 <CardActions>
                   <Typography color="#3584e2" variant="body1" component={Link} to="/meets">
-                    <b>Click Here To See Our Future Meets </b>
+                    <b>Click Here To Book A Shoot </b>
                   </Typography>
                 </CardActions>
               </div>
@@ -170,21 +170,21 @@ function homepage() {
               <CardMedia
                 component="img"
                 height="350"
-                image={require('../assets/banner2.jpg')}
+                image={require('../assets/banner.jpg')}
                 alt="Meets"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Meets
+                  Photoshoot Request
                 </Typography>
                 <Typography variant="body1">
-                  The meets page contains dates and locations of meets being held.
+                  The photoshoot request contains a form you can fill out to get photos taken of your car or other.
                 </Typography>
               </CardContent>
               <div className="link-box" component={Link} to="/shop">
                 <CardActions>
                   <Typography color="#3584e2" variant="body1" component={Link} to="/meets" >
-                    <b>Click Here To See Our Future Meets </b>
+                    <b>Click Here To Book A Shoot </b>
                   </Typography>
                 </CardActions>
               </div>
