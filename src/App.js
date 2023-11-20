@@ -59,8 +59,7 @@ function App() {
         <Route path="/gallery/JonoCresta" element={<JonoChaser/>} />
         <Route path="/gallery/RollaWagon" element={<RollaWagon/>} />
         <Route path="/shop" element={<Shop/>} />  
-        <Route path="/meets" element={<Meets/>} /> 
-        //why the fuck must it be caps this lang sucks cock and balls
+        <Route path="/meets" element={<Meets/>} />     
       </Routes>
     </Router>
   
