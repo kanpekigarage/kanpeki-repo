@@ -58,16 +58,28 @@
 
 .hamburg-grid {
   padding-bottom: 20px;
+  width: 100%;
+}
+
+.nav-link-open-container {
+  padding-top: 5px;
+  height: 40px;
+  border-bottom: 1px solid var(--navbar-open-bg-line);
 }
 
 .hamburg-item {
+  color: var(--primary-text);
   text-decoration: none;
-  color: white;
-  padding: 17.5px;
-  border-bottom: 1px solid black;
-  border-color: rgba(255, 255, 255, 0.746);
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 26px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 5px;
+  padding-bottom: 3px;
+  padding-right: 115px;
+  width: 100%;
+  list-style: none;
+  display: flex;
 }
 
 /* .navbar-sign-in  {

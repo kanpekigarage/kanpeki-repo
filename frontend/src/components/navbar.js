@@ -7,15 +7,22 @@ import { AppBar, Button, IconButton, Toolbar, Grid} from "@mui/material"; //icon
 //import { AccountCircle } from "@mui/icons-material"; //in case if wanna have icons
 import { Link } from 'react-router-dom';
 
+import Hamburger from './hamburger.jsx';
+
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  //const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+  const toggleHamburger = () => {
+    //setHamburgerOpen(!hamburgerOpen);
+    setMenuOpen(!menuOpen); // Toggle menuOpen along with the hamburger
+  };
 
   return (
     <React.Fragment >
       <AppBar sx={{background: "#000",  opacity: "0.9"}}>
         <Toolbar>
-          {/* if menu open, home button will close menu */}
-          <Link className="navbar-logo" to="/" onClick={(menuOpen) => setMenuOpen(!menuOpen)}>
+          <Link className="navbar-logo" to="/">
             <img src={logo} width="250px"/>
           </Link>
           <Button 
@@ -39,41 +46,31 @@ function Navbar() {
           >
             Photoshoot Request
           </Button>
-          <div className="navbar-hamburg-logo" onClick={() => setMenuOpen(!menuOpen)}>
-            <img src={hamburg} width="37.5px"/>
+          <div className="navbar-hamburg-logo">
+            
           </div>
+
+          <Hamburger opened={menuOpen} onClick={toggleHamburger}></Hamburger>
+
         </Toolbar>
         {/*  
         Dropdown Menu 
         */}
         { menuOpen && (
           <Grid container align="center" className="hamburg-grid">
-            <Grid item xs={12} 
-              className="hamburg-item" 
-              component={Link} 
-              to="/gallery"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              Gallery
-            </Grid>
-            <Grid item xs={12} 
-              className="hamburg-item" 
-              component={Link} 
-              to="/shop"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              Shop
-            </Grid>
-            <Grid item xs={12} 
-              className="hamburg-item" 
-              component={Link} 
-              to="/meets"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              Photoshoot Request
-            </Grid>
+            <div className='nav-link-open-container'>
+              <Link to="/gallery" className='hamburg-item'>&gt; Gallery</Link>
+            </div>
+            <div className='nav-link-open-container'>
+              <Link to="/shop" className='hamburg-item'>&gt; Shop</Link>
+            </div>
+            <div className='nav-link-open-container'>
+              <Link to="/meets" className='hamburg-item'>&gt; Photoshoot Request</Link>
+            </div>
+            
           </Grid>
         )}
+        
       </AppBar>
     </React.Fragment> 
   );

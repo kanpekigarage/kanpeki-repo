@@ -30,6 +30,11 @@ function homepage() {
     window.location.href = image.link; // Use this for a simple page redirect
   };
 
+  const windowHeight = window.innerWidth;
+
+  // Conditionally set the height based on the device height
+  const sliderHeight = windowHeight < 600 ? 155 : 750;
+
   return(
     <Box
       component="div"
@@ -67,7 +72,7 @@ function homepage() {
               <Grid item xs={12} style={{ cursor: 'pointer' }}>
                 <SimpleImageSlider
                   width={'80%'}
-                  height={750}
+                  height={sliderHeight}
                   images={images}
                   showBullets={true}
                   showNavs={true}
