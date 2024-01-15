@@ -20,9 +20,9 @@ const images = [
   //{ url: feature1, link: '/gallery/e36' },
   //{ url: feature2, link: '/gallery/wes13' },
   //{ url: feature3, link: '/gallery/jess180sx' }
-  { url: feature1, link: '/gallery/e36#/gallery/e36' },
-  { url: feature2, link: '/gallery/wes13#/gallery/wes13' },
-  { url: feature3, link: '/gallery/jess180sx#/gallery/jess180sx' }
+  { url: feature1, link: '/#/gallery/e36' },
+  { url: feature2, link: '/#/gallery/wes13' },
+  { url: feature3, link: '/#/gallery/jess180sx' }
 ];
 
 function homepage() {
