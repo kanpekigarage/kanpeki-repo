@@ -1,7 +1,10 @@
 //import logo from './logo.svg'; //use similar to import images/videos
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, HashRouter } from "react-router-dom";
+
+//make it browser router when not on github pages 
+
 import Navbar from './components/navbar'; // Change 'Navbar' to 'navbar'
 import Gallery from './components/pages/gallery'; // Change 'Gallery' to 'gallery'
 import Home from './components/pages/home'; // Change 'Home' to 'home'
@@ -34,7 +37,7 @@ function App() {
 
 
   return (
-    <Router>
+    <HashRouter>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
@@ -61,7 +64,7 @@ function App() {
         <Route path="/shop" element={<Shop/>} />  
         <Route path="/meets" element={<Meets/>} />     
       </Routes>
-    </Router>
+    </HashRouter>
   
   );
 }
