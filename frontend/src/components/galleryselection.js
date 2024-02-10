@@ -37,7 +37,103 @@ function GallerySelection() {
               Click the images to view more photos of the cars.
             </Typography>
           </Grid>
+
+          <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/GC8">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/gc81.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @vrmbel's GC8 Impreza
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+		  
+		  <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/242GT">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/vov.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @scott_garrick's 242GT 
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
           
+          <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/foz">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/foz.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @jed.brooker's Forester
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+		  
+		  <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/galant">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/galant.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @darcy_evans_vr4's Galant VR4 
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+		  
+		  <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/350z">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/350.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @currankeely_'s 350z
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+		  
+		  <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/AdamLZEvo">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/evo.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @adam_lz's Evo
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
           <Grid item xs={4} className="zacdesk nodrag" component={Link} to="/gallery/e36">
             <Card >
               <CardMedia
@@ -340,6 +436,102 @@ function GallerySelection() {
                 <Typography gutterBottom variant="h5" component="div">
                   @_rolla_wagon_'s Corolla Wagon
                 </Typography>             
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/GC8">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/gc81.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @vrmbel's GC8 Impreza
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+		  
+		  <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/242GT">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/vov.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @scott_garrick's 242GT 
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
+          <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/foz">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/foz.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @jed.brooker's Forester
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+		  
+		  <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/galant">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/galant.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @darcy_evans_vr4's Galant VR4 
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+		  
+		  <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/350z">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/350.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @currankeely_'s 350z
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+		  
+		  <Grid item xs={12} className="zacmobile nodrag" component={Link} to="/gallery/AdamLZEvo">
+            <Card >
+              <CardMedia
+                component="img"
+                height="350"
+                image={require('../galleryImg/evo.jpg')}
+                alt="mx5"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  @adam_lz's Evo
+                </Typography>
               </CardContent>
             </Card>
           </Grid>

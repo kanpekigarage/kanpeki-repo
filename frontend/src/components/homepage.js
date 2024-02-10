@@ -12,17 +12,17 @@ import {
   Typography
 } from '@mui/material';
 
-import feature1 from '../galleryImg/e36.jpg';
-import feature2 from '../galleryImg/wesil.jpg';
-import feature3 from '../galleryImg/jess.jpg';
+import feature1 from '../galleryImg/foz1.jpg';
+import feature2 from '../galleryImg/volvo.jpg';
+import feature3 from '../galleryImg/GC8.jpg';
 
 const images = [
   //{ url: feature1, link: '/gallery/e36' },
   //{ url: feature2, link: '/gallery/wes13' },
   //{ url: feature3, link: '/gallery/jess180sx' }
-  { url: feature1, link: '/#/gallery/e36' },
-  { url: feature2, link: '/#/gallery/wes13' },
-  { url: feature3, link: '/#/gallery/jess180sx' }
+  { url: feature1, link: '/#/gallery/foz' },
+  { url: feature2, link: '/#/gallery/242GT' },
+  { url: feature3, link: '/#/gallery/GC8' }
 ];
 
 function homepage() {
@@ -82,6 +82,8 @@ function homepage() {
                   onClick={(index) => handleImageClick(index)}
                 />
               </Grid>
+
+          
 
             </Grid>
    

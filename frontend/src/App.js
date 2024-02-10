@@ -29,9 +29,12 @@ import SailSky from './components/pages/SailR600';
 import Max240SX from './components/pages/Max240SX';
 import JonoChaser from './components/pages/JonoChaser';
 import RollaWagon from './components/pages/RollaWagon';
-
-
-// ... other imports
+import Foz from './components/pages/foz';
+import Evo from './components/pages/AdamEvo';
+import Z350 from './components/pages/350z';
+import Galant from './components/pages/Galant';
+import GC8 from './components/pages/GC8';
+import GT242 from './components/pages/GT242';
 
 function App() {
 
@@ -61,6 +64,13 @@ function App() {
         <Route path="/gallery/Max240SX" element={<Max240SX/>} />
         <Route path="/gallery/JonoCresta" element={<JonoChaser/>} />
         <Route path="/gallery/RollaWagon" element={<RollaWagon/>} />
+        <Route path="/gallery/Foz" element={<Foz/>} />
+        <Route path="/gallery/AdamLZEvo" element={<Evo/>} />
+        <Route path="/gallery/350z" element={<Z350/>} />
+        <Route path="/gallery/galant" element={<Galant/>} />
+
+        <Route path="/gallery/GC8" element={<GC8/>} />
+        <Route path="/gallery/242GT" element={<GT242/>} />
         <Route path="/shop" element={<Shop/>} />  
         <Route path="/meets" element={<Meets/>} />     
       </Routes>

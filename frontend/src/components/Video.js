@@ -1,10 +1,10 @@
 import React from 'react';
 import './Video.css';
 
-const images = ['mobileBanner0.jpg', 'mobileBanner1.jpg', 'mobileBanner2.jpg', 'mobileBanner3.jpg'];
+const images = ['mobileBanner0.jpg', 'mobileBanner1.jpg', 'mobileBanner2.jpg', 'mobileBanner3.jpg', 'mobileBanner4.jpg', 'mobileBanner5.jpg', 'mobileBanner6.jpg'];
 const imagesArray = images.map(img => require(`../assets/${img}`));
 
-const imagesDesk = ['deskBanner0.jpg', 'deskBanner1.jpg', 'deskBanner2.jpg', 'deskBanner3.jpg'];
+const imagesDesk = ['deskBanner0.jpg', 'deskBanner1.jpg', 'deskBanner2.jpg', 'deskBanner3.jpg', 'deskBanner4.jpg', 'deskBanner5.jpg', 'deskBanner6.jpg'];
 const imagesArrayDesk = imagesDesk.map(img => require(`../assets/${img}`));
 
 class ImageSlider extends React.Component {
